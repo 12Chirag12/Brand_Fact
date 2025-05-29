@@ -6,9 +6,9 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  }
+  
+    "scripts": {
+  "vercel-build": "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > .npmrc && next build"
 }
+
+  }
