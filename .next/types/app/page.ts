@@ -1,4 +1,4 @@
-// File: C:\itr_pr\cloth_webJS\app\page.js
+// File: C:\itr_pr\Brand_Fact\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
