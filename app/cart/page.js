@@ -214,6 +214,7 @@ function CartPageContent({ cart, removeFromCart, clearCart, addOrder }) {
     </main>
   );
 }
+
 export default function CartPage() {
   const { cart, removeFromCart, clearCart } = useContext(CartContext);
   const { addOrder } = useContext(OrdersContext);
@@ -229,12 +230,3 @@ export default function CartPage() {
     </Suspense>
   );
 }
-export async function generateMetadata() {
-  return {
-    title: "Cart",
-    description: "View and manage your shopping cart",
-  };
-}
-export const dynamic = "force-dynamic"; // Ensure this page is always fresh
-export const revalidate = 0; // Disable static caching
-export const fetchCache = "force-no-store"; // Disable caching for this page    
