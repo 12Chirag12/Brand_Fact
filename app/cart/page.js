@@ -1,5 +1,5 @@
 "use client";
-import { useContext, useState, useEffect, useRef } from "react";
+import React, { Suspense, useContext, useState, useEffect, useRef } from "react";
 import { CartContext, OrdersContext } from "../../components/CartContext";
 import { useSearchParams } from "next/navigation";
 
